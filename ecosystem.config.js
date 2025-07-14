@@ -4,8 +4,8 @@ module.exports = {
       name: "app",
       script: "index.js",
       interpreter: "bun",
-      //   exec_mode: "cluster",
-      //   instances: 2,
+      exec_mode: "cluster",
+      instances: 2,
     },
   ],
 };
